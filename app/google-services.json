@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740714672545",
+    "firebase_url": "https://appflipkartlite-default-rtdb.firebaseio.com",
+    "project_id": "appflipkartlite",
+    "storage_bucket": "appflipkartlite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740714672545:android:2370d881e7dbd5a010dbe0",
+        "android_client_info": {
+          "package_name": "com.example.appflipkartlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740714672545-8l3kvthjc901aa79qgc8m4u10e3s4f9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN_-EyuSbSTqKKWkGVHI8tf2r8wNdY8xM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740714672545-8l3kvthjc901aa79qgc8m4u10e3s4f9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

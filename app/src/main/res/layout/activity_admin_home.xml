@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    android:orientation="vertical"
+    android:background="#B9E0FF"
+    tools:context=".AdminHome">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="3">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            android:padding="20sp"
+            app:lottie_fileName="47340-hands-holding-smartphone-and-add-to-cart-in-online.json"
+            app:lottie_loop="true"
+            app:lottie_speed="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </LinearLayout>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/btHomeAddGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ADD GROCERY"
+        android:layout_margin="20sp"
+        android:textSize="25sp">
+
+    </Button>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/btHomeDelGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="DELETE GROCERY"
+        android:layout_margin="20sp"
+        android:textSize="25sp">
+
+    </Button>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/btHomeUpdGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="UPDATE GROCERY"
+        android:layout_margin="20sp"
+        android:textSize="25sp">
+
+    </Button>
+
+    <Button
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/btHomeListGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="LIST GROCERY"
+        android:layout_margin="20sp"
+        android:textSize="25sp">
+
+    </Button>
+
+</LinearLayout>
